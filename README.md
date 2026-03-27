@@ -42,4 +42,4 @@ To run this application locally, you will need a local development environment t
 4. The user receives a finalized output that they can easily download to their own device.
 
 ---
-*Created by [kianluppoy8-sys](https://github.com/kianluppoy8-sys)*
+*Created by [kianluppoy8-sys](https://github.com/kianluppoy8-sys) && [alphajai](https://github.com/alphajai)*
