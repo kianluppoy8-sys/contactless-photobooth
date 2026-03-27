@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* backgroundddd */
+.bk{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.txt{
+  position: fixed;
+  translate: 390px 5px;
+  color: white;
+}
+
+.txt1{
+  position: fixed;
+  translate: 400px 40px;
+  font-size: 17px;
+}
+
+.txt1{
+color: #00c8ff;
+}
+
+.main-container{
+    padding: 3px;
+    border-radius: 20px;
+    height: 600px;
+    width: 1030px;
+    position: fixed;
+     background-color: rgb( 0, 225, 255, 20%)
+}
+
+
+
+.card-layout{
+    align-items: center;
+    padding: 60px, 80px;
+    border-radius: 20px;
+    gap: 80px;
+    position: fixed;
+}
+
+
+
+
+.login-box {
+  translate: 200% 120px;
+  padding: 40px;
+  border-radius: 20px;
+  width: 250px;
+  border: 1px solid #00c8ff; 
+  background-color: rgb(0, 225, 255, 20%);
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.input-box, .remember-forgot{
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #00c8ff;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  max-width: 290px;
+  padding: 10px 20px;
+  font-size: 16px;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  color: #fff;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  background: rgb(0, 255, 255, 20%);
+  box-shadow: inset 18px 18px 36px rgb(0, 200, 255, 20%),
+            inset -18px -18px 36px #00ffff;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #00c8ff;
+}
+
+.info-text{
+  color: white;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    padding: 20px;
+    height: auto;
+  }
+
+  .card-wrapper {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 30px;
+  }
+
+  .location-box,
+  .login-box {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .wc {
+    font-size: 22px;
+  }
+
+  .lfp {
+    font-size: 16px;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .btn {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
